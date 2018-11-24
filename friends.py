@@ -5,7 +5,7 @@ with open('friends_added.json', 'r') as f:
 
 fh = open('friends.txt', 'w')
 for item in friends_dict['friends']:
-	print item['name']
+	print(item['name'])
 	fh.write(item['name'])
 	fh.write('\n')
 fh.close()
